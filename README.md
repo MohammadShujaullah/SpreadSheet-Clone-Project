@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# SpreadSheet-Clone-Project
+this is a basic spreadsheet style table build in React + TypeScript + Tailwind CSS, made for the Inscripts intern assignement.   It's a static front-end only project, but fully editable and look almost like Google Sheet lite
+>>>>>>> 71c283f132128c815fe50fee34840d6118dcbe39
