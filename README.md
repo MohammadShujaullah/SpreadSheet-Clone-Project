@@ -1,51 +1,89 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+ # 🧾 React Spreadsheet Clone – Internship Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a front-end-only React + TypeScript web application that mimics a spreadsheet-style table, built as part of the Inscripts Internship Assignment. The interface is inspired by tools like Google Sheets, with editable cells, filtering, and a clean toolbar layout.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- ✅ Add new rows dynamically with `+ New Action` button
+- ✅ Fully editable cells: text, number, date, dropdowns
+- ✅ Filters for:
+  - Status (e.g. In-process, Blocked, Complete)
+  - Priority (High, Medium, Low)
+  - Submitted After (date picker)
+- ✅ Toggleable filter panel
+- ✅ Spreadsheet-like layout with responsive UI
+- ✅ Conditional styling on cells (e.g. priority/status colors)
+- ✅ Toolbar with action buttons (console logged)
+- ✅ ESLint + Prettier for clean code formatting
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Tech Stack
 
-### `npm test`
+- **React** (with TypeScript)
+- **Tailwind CSS** (utility-first styling)
+- **React Table** (lightweight table engine)
+- **ESLint + Prettier** (code quality + formatting)
+- **Vercel** (for deployment)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repo and run it locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ 
+git clone https://github.com/your-username/spreadsheet-clone.git
+cd spreadsheet-clone
+npm install
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+App will start at: spread-sheet-clone-project-r5w9.vercel.app
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+🧠 Usage Instructions
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Click + New Action to add a new row
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Click in any cell to edit (text, dropdown, date, etc.)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Click Filter in the toolbar to open filter panel
 
-## Learn More
+Use the dropdowns to filter rows based on status, priority, or submission date
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Note: This app does not persist data. It works entirely on the frontend.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# SpreadSheet-Clone-Project
-this is a basic spreadsheet style table build in React + TypeScript + Tailwind CSS, made for the Inscripts intern assignement.   It's a static front-end only project, but fully editable and look almost like Google Sheet lite
->>>>>>> 71c283f132128c815fe50fee34840d6118dcbe39
+🧹 Code Quality
+ESLint + Prettier Setup
+Lint your code using:
+
+bash
+Copy
+Edit
+npm run lint
+Prettier auto-formats your code in VS Code (if enabled)
+
+ESLint ensures best practices while Prettier ensures clean formatting.
+
+🌐 Live Demo
+✅ Live Site on Vercel
+    spread-sheet-clone-project-r5w9.vercel.app
+
+🙋 Author
+Md Shujaullah
+3rd Year B.Tech Student | Frontend Dev Enthusiast
+Built with ❤️ as part of internship submission for Inscripts
+
+📎 Extra Notes
+This is a static front-end only prototype
+
+Can be extended with Firebase or backend APIs for real-time data
+
+Bonus features (if time permits): column sorting, hiding columns, keyboard navigation, export
+
+Thanks for checking out the project 🙏
+Feedback welcome!
+
+ 
