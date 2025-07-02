@@ -40,7 +40,7 @@ cd spreadsheet-clone
 npm install
 npm start
 
-App will start at: spread-sheet-clone-project-r5w9.vercel.app
+App will start at:   spread-sheet-clone-project-r5w9.vercel.app
 
 
 🧠 Usage Instructions
@@ -68,9 +68,9 @@ Prettier auto-formats your code in VS Code (if enabled)
 ESLint ensures best practices while Prettier ensures clean formatting.
 
 🌐 Live Demo
-✅ Live Site on Vercel
-    spread-sheet-clone-project-r5w9.vercel.app
+✅ Live Site on Vercel: spread-sheet-clone-project-r5w9.vercel.app
 
+  
 🙋 Author
 Md Shujaullah
 3rd Year B.Tech Student | Frontend Dev Enthusiast
