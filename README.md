@@ -35,12 +35,13 @@ This is a front-end-only React + TypeScript web application that mimics a spread
 
 Clone the repo and run it locally:
 
-```bash
-git clone https://github.com/your-username/spreadsheet-clone.git
+ ```bash
+git clone (https://github.com/your-username/spreadsheet-clone.git)
 
 cd spreadsheet-clone
 npm install
 npm start
+```
 
 App will start at:( http://spread-sheet-clone-project-r5w9.vercel.app)
 
